@@ -5,9 +5,7 @@ import Logo from "../../Assets/logo_SoC.png";
 
 import FooterCredits from "./FooterCredits";
 
-function Footer() {
-
- 
+function Footer() { 
 
   return (
     <div className="footer-section">

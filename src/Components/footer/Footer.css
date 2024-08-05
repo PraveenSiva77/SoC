@@ -90,11 +90,34 @@ a{
     .ft-link-base ul{
         justify-content: center;
     }   
+    
 }
+
+@media screen and (max-width: 425px) {
+    .input-base{
+        flex-direction: column !important;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .email-input{
+        width: 90%;
+        border-radius: 0.3rem;
+        padding: 0.5rem 2rem;
+
+    }
+    .subscribe_btn{
+        padding: 0.5rem 2rem;
+        border-radius: 0.3rem;
+        color: #fff;
+        background-color: var(--primary-color);
+    }
+}
+
 
 @media screen and (max-width: 376px) {
     .input-base{
-        flex-direction: column;
+        flex-direction: column !important;
         gap: 1rem;
         justify-content: center;
         align-items: center;
