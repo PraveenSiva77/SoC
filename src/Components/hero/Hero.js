@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Developer from "../Assets/developer_1.png";
+import Developer from "../../Assets/developer_1.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarCheck, faAngleUp, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate  } from "react-router-dom";
-import "../Styles/Hero.css";
+import "./Hero.css";
 
-import { Links } from "./TeamMembersInfo";
+import { Links } from "../TeamMembersInfo";
 
 
 function Hero() {

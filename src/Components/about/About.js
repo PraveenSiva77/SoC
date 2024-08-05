@@ -1,7 +1,7 @@
 import React from "react";
-import Team from "../Assets/about.png";
-import SolutionStep from "./SolutionStep";
-import "../Styles/About.css";
+import Team from "../../Assets/about.png";
+import SolutionStep from "../SolutionStep";
+import "./About.css";
 
 function About() {
   return (
